@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Home from './components/Home'
+import Create from './components/Create'
 
 function App() {
- 
+    const [todos, setTodos, ] = useState
+  
 
   return (
-    <Home />
+    <div>
+
+      <h2>Todo List</h2>
+      <Home />
+      <Create />
+    
+    </div>
    
   )
 }
