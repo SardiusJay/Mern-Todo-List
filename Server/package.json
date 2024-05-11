@@ -1,0 +1,22 @@
+
+
+
+"script": {
+  "test": "echo \ "Error: no test specifed \" && exit 1",
+  "start": "nodemon"
+
+}
+
+
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cars": "^1.1.6",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
+  }
+}

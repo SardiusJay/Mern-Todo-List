@@ -4,8 +4,6 @@ import Home from './components/Home'
 import Create from './components/Create'
 
 function App() {
-    const [todos, setTodos, ] = useState
-  
 
   return (
     <div>
