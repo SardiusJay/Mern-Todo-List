@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Create from './Create';
 
 const Home = () => {
-    const [todos, setTodos, ] = useState
+    const [todos, setTodos, ] = useState([])
   return (
     <div >
         <h2>Todo-List</h2>
