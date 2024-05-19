@@ -9,13 +9,13 @@ const Home = () => {
         <Create />
 
 
-            todos.length === 0 ?
+            todos.length === 0 
             ?
             <div>
                 <h2>No Record</h2>
             </div>
-            todos.map(todo => (
-                :
+            :
+            todos.map(todo ={'>'} (
                 <div>
                     {todo}
                 </div>
